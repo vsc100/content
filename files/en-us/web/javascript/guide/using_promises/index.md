@@ -132,7 +132,7 @@ doSomething()
       .then((res) => res.json())
       .then((data) => {
         listOfIngredients.push(data);
-      }),
+      })
   )
   .then(() => {
     console.log(listOfIngredients);
